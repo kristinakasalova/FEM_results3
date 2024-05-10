@@ -3,12 +3,12 @@ import { Hanken_Grotesk } from 'next/font/google'
 
 export default function Home() {
   return (
-    <main className="flex  flex-row flex-wrap items-center justify-evenly   p-24 bg-gradient-to-b from-white to-[#ebf1ff] ">
+    <main className="flex  flex-row flex-wrap items-center justify-evenly   p-24 bg-gradient-to-b from-white to-[#ebf1ff] pt-50">
         <div className='max-w-[850px] grid grid-cols-1 rounded-full md:grid-cols-2 bg-white justify-center'>
         <div className="relative pb-8 flex place-items-end rounded-b-[40px] md:rounded-[40px] grid justify-items-center bg-gradient-to-b to-[#2e2be9] from-[#7857ff] ">
-          <p className='text-3xl text-[#c8c7ff] text-700 mt-10 font-bold'>Your Result</p> <br /> 
+          <p className='text-3xl text-[#c8c7ff] text-700 mt-10 font-bold text-white'>Your Result</p> <br /> 
           <span className='rounded-full mb-10 bg-gradient-to-b from-[#4e21ca] to-[# ] px-20 py-8 justify-items-center'>
-          <h1 className='text-[100px] font-extrabold text-center '>76</h1> 
+          <h1 className='text-[100px] font-extrabold text-centertext-white '>76</h1> 
           <p className='text-xl mt-[-15px] text-center font-bold text-[#7857ff]'>of 100</p> <br />
           </span>
           <h2 className='text-4xl mb-5 font-bold'>Great</h2> 
@@ -128,7 +128,7 @@ export default function Home() {
           <div
             className="group rounded-full border border-transparent m-6 px-4 py-4 text-center self-center  align-middle bg-[#303b5a] hover:bg-gradient-to-b to-[#2e2be9] from-[#7857ff]"
           >
-            <button type="button" className={`text-2xl font-bold `}>
+            <button type="button" className={`text-2xl font-bold text-white `}>
               Continue  
             </button>
           </div>
