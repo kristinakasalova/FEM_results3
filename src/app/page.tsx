@@ -8,11 +8,11 @@ export default function Home() {
         <div className="relative pb-8 flex place-items-end rounded-b-[40px] md:rounded-[40px] grid justify-items-center bg-gradient-to-b to-[#2e2be9] from-[#7857ff] ">
           <p className='text-3xl text-[#c8c7ff] text-700 mt-10 font-bold text-white'>Your Result</p> <br /> 
           <span className='rounded-full mb-10 bg-gradient-to-b from-[#4e21ca] to-[# ] px-20 py-8 justify-items-center'>
-          <h1 className='text-[100px] font-extrabold text-centertext-white '>76</h1> 
-          <p className='text-xl mt-[-15px] text-center font-bold text-[#7857ff]'>of 100</p> <br />
+          <h1 className='text-[100px] font-extrabold text-center text-white '>76</h1> 
+          <p className='text-xl mt-[-15px] text-center font-bold text-white'>of 100</p> <br />
           </span>
-          <h2 className='text-4xl mb-5 font-bold'>Great</h2> 
-          <p className='text-xl mx-10 max-w-[60%] text-center text-[#c8c7ff ]'>You scored higher than 65% of the people who have taken these tests.</p>
+          <h2 className='text-4xl mb-5 font-bold text-white'>Great</h2> 
+          <p className='text-xl mx-10 max-w-[60%] text-center text-white'>You scored higher than 65% of the people who have taken these tests.</p>
           <br />
         </div>
 
